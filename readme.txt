@@ -1,6 +1,12 @@
-Example Mod for Satellite Reign.
+Persuadertron mod for Satellite Reign.
 
-Press pause(pause/break) key on keyboard to pause / unpause the game.
+Idea is to recreate the syndicate wars persuadertron for capturing civilians, police, agents, etc.
+
+Doesn't work as advertised, this is just something I'm working on to learn C#. Compiles/loads fine.
+Select agents and approach civilians, press F11 to 'capture' civilians (they will be knocked to the ground).
+Press F9 to get captured civilans to move towards the selected player.
+
+Chances are it will mess up if a captured civilian despawns as there's no callback to remove the ID from the array.
 
 
 How to Build:
@@ -32,7 +38,4 @@ Depending on selected configuration, "Pause.dll" will be written out to either
 Copy Pause.dll to 
 [SR install folder]\Mods
 
-Start Satellite Reign
-
-Once you start a game you should now be able to pause the game with the pause key.
-
+Start Satellite Reign and follow the above instructions.
